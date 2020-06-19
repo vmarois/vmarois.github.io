@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research on Vincent Marois</title>
+    <link>/tags/research/</link>
+    <description>Recent content in research on Vincent Marois</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Vincent Marois</copyright>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Transfer Learning in Visual and Relational Reasoning</title>
+      <link>/publication/transfer-learning/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/transfer-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Transfer Learning using a MAC model variant</title>
+      <link>/publication/vqa/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/vqa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

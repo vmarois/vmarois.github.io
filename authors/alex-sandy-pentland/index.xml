@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex &#39;Sandy&#39; Pentland on Vincent Marois</title>
+    <link>/authors/alex-sandy-pentland/</link>
+    <description>Recent content in Alex &#39;Sandy&#39; Pentland on Vincent Marois</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Vincent Marois</copyright>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/alex-sandy-pentland/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Study of Compositional Generalization in Neural Models</title>
+      <link>/publication/compositional-gen/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/compositional-gen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

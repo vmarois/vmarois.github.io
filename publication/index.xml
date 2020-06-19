@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Vincent Marois</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Vincent Marois</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Vincent Marois</copyright>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Study of Compositional Generalization in Neural Models</title>
+      <link>/publication/compositional-gen/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/compositional-gen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer Learning in Visual and Relational Reasoning</title>
+      <link>/publication/transfer-learning/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/transfer-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Transfer Learning using a MAC model variant</title>
+      <link>/publication/vqa/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/vqa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Machine Learning Research with MI-Prometheus</title>
+      <link>/publication/mi-prometheus/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mi-prometheus/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
