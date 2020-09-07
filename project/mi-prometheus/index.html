@@ -82,7 +82,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.85b9b932bb5ce0aa9f9a005fd62342d6.css">
+  <link rel="stylesheet" href="/css/academic.min.315d0c59a352d21b0894088713aa9144.css">
 
   
 
@@ -578,8 +578,12 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <h2 id="core-concepts">Core concepts</h2>
+      
+
+<h2 id="core-concepts">Core concepts</h2>
+
 <p>When training a model, people write programs which typically follow a similar pattern:</p>
+
 <ul>
 <li>Loading data samples &amp; instantiating the model,</li>
 <li>Feeding the model batches of sample-label pairs, which are passed through the model <em>forward pass</em>,</li>
@@ -587,8 +591,11 @@
 <li>This error is propagated backwards using <em>backpropagation</em>,</li>
 <li>Updating the model parameters using an optimizer.</li>
 </ul>
+
 <p>During each iteration, the program can also collect statistics (such as the training / validation loss &amp; accuracy) and optionally save the weights of the resulting model to file.</p>
+
 <p>This typical workflow led us to the formalization of the core concepts of the framework:</p>
+
 <ul>
 <li><strong>Problem</strong>: A dataset or a data generator, returning a batch of inputs and ground truth labels used for a model training/validation/test,</li>
 <li><strong>Model</strong>: A trainable model (i.e. a neural network),</li>
@@ -596,13 +603,17 @@
 <li><strong>Configuration file(s)</strong>: YAML file(s) containing the parameters of the <strong>Problem</strong>, <strong>Model</strong> and training procedure,</li>
 <li><strong>Experiment</strong>: A single run (training &amp; validation or test) of a given <strong>Model</strong> on a given <strong>Problem</strong>, using a specific <strong>Worker</strong> and <strong>Configuration file(s)</strong>.</li>
 </ul>
+
 <p>Aside of the <strong>Workers</strong>, MI-Prometheus currently offers 2 other types of specialized applications, namely:</p>
+
 <ul>
 <li><strong>Grid Worker</strong>: A specialized application which automates the handling of a number of experiments in parallel.</li>
 <li><strong>Helper</strong>: An application useful from the point of view of a running experiment, but which is independent and external to the <strong>Workers</strong>.</li>
 </ul>
+
 <p>The general idea here is that the <strong>Grid Workers</strong> are useful to <em>reproduce research</em>, e.g. when one trains a set of independent models on a set of problems and compare the results. In such a situation, the user can use a <strong>Helper</strong> to download the required datasets (before training) and/or preprocess them in a specific way (e.g. extract representations), which will reduce the overall time of all experiments.</p>
-<p>You can read more about MI-Prometheus <a href="https://mi-prometheus.readthedocs.io/en/develop/mip_primer/1_mip_explained.html">here</a>.</p>
+
+<p>You can read more about MI-Prometheus <a href="https://mi-prometheus.readthedocs.io/en/develop/mip_primer/1_mip_explained.html" target="_blank">here</a>.</p>
 
     </div>
 
@@ -650,7 +661,7 @@
 
     <div class="media-body">
       <h5 class="card-title" itemprop="name"><a href="/">Vincent Marois</a></h5>
-      <h6 class="card-subtitle">AI Resident</h6>
+      <h6 class="card-subtitle">Software Engineer</h6>
       <p class="card-text" itemprop="description">My interests lie at the intersection of AI Research and Software Engineering.</p>
       <ul class="network-icon" aria-hidden="true">
         
@@ -879,7 +890,7 @@
     
     
     
-    <script src="/js/academic.min.d916869fdf6953df2272ba2769375b53.js"></script>
+    <script src="/js/academic.min.8cd55d839906ab9f8f6514a7081b20c1.js"></script>
 
     
 
@@ -894,7 +905,7 @@
   
 
   <p class="powered-by">
-    © 2020 Vincent Marois &middot; 
+    &copy; 2020 Vincent Marois &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

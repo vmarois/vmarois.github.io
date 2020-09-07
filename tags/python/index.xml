@@ -36,10 +36,15 @@
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/transformer/</guid>
-      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;We propose an in-depth analysis and reimplementation of the Transformer model (&lt;a href=&#34;https://arxiv.org/abs/1706.03762&#34;&gt;Vaswani et al., NIPS 2017&lt;/a&gt;). Its non-recurrent behavior and sole use of attention makes it an intriguing model to analyze.&lt;/p&gt;
+      <description>
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;We propose an in-depth analysis and reimplementation of the Transformer model (&lt;a href=&#34;https://arxiv.org/abs/1706.03762&#34; target=&#34;_blank&#34;&gt;Vaswani et al., NIPS 2017&lt;/a&gt;). Its non-recurrent behavior and sole use of attention makes it an intriguing model to analyze.&lt;/p&gt;
+
 &lt;p&gt;We perform a hyper-parameters search, as well as a memory-profiling study, both of these allowing us to successfully train and semantically evaluate the model on the IWSLT TED Translation task. Our experiments further enable us to detail particular insights on the behavior of the model and its training process. This article is aligned with the current question of reproducibility in Deep Learning Research.&lt;/p&gt;
-&lt;p&gt;Our findings are available on the main &lt;a href=&#34;https://deepfrench.gitlab.io/deep-learning-project&#34;&gt;project&amp;rsquo;s webpage&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our findings are available on the main &lt;a href=&#34;https://deepfrench.gitlab.io/deep-learning-project&#34; target=&#34;_blank&#34;&gt;project&amp;rsquo;s webpage&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -49,8 +54,12 @@
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/mi-prometheus/</guid>
-      <description>&lt;h2 id=&#34;core-concepts&#34;&gt;Core concepts&lt;/h2&gt;
+      <description>
+
+&lt;h2 id=&#34;core-concepts&#34;&gt;Core concepts&lt;/h2&gt;
+
 &lt;p&gt;When training a model, people write programs which typically follow a similar pattern:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Loading data samples &amp;amp; instantiating the model,&lt;/li&gt;
 &lt;li&gt;Feeding the model batches of sample-label pairs, which are passed through the model &lt;em&gt;forward pass&lt;/em&gt;,&lt;/li&gt;
@@ -58,8 +67,11 @@
 &lt;li&gt;This error is propagated backwards using &lt;em&gt;backpropagation&lt;/em&gt;,&lt;/li&gt;
 &lt;li&gt;Updating the model parameters using an optimizer.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;During each iteration, the program can also collect statistics (such as the training / validation loss &amp;amp; accuracy) and optionally save the weights of the resulting model to file.&lt;/p&gt;
+
 &lt;p&gt;This typical workflow led us to the formalization of the core concepts of the framework:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Problem&lt;/strong&gt;: A dataset or a data generator, returning a batch of inputs and ground truth labels used for a model training/validation/test,&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Model&lt;/strong&gt;: A trainable model (i.e. a neural network),&lt;/li&gt;
@@ -67,13 +79,17 @@
 &lt;li&gt;&lt;strong&gt;Configuration file(s)&lt;/strong&gt;: YAML file(s) containing the parameters of the &lt;strong&gt;Problem&lt;/strong&gt;, &lt;strong&gt;Model&lt;/strong&gt; and training procedure,&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Experiment&lt;/strong&gt;: A single run (training &amp;amp; validation or test) of a given &lt;strong&gt;Model&lt;/strong&gt; on a given &lt;strong&gt;Problem&lt;/strong&gt;, using a specific &lt;strong&gt;Worker&lt;/strong&gt; and &lt;strong&gt;Configuration file(s)&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Aside of the &lt;strong&gt;Workers&lt;/strong&gt;, MI-Prometheus currently offers 2 other types of specialized applications, namely:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Grid Worker&lt;/strong&gt;: A specialized application which automates the handling of a number of experiments in parallel.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Helper&lt;/strong&gt;: An application useful from the point of view of a running experiment, but which is independent and external to the &lt;strong&gt;Workers&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;The general idea here is that the &lt;strong&gt;Grid Workers&lt;/strong&gt; are useful to &lt;em&gt;reproduce research&lt;/em&gt;, e.g. when one trains a set of independent models on a set of problems and compare the results. In such a situation, the user can use a &lt;strong&gt;Helper&lt;/strong&gt; to download the required datasets (before training) and/or preprocess them in a specific way (e.g. extract representations), which will reduce the overall time of all experiments.&lt;/p&gt;
-&lt;p&gt;You can read more about MI-Prometheus &lt;a href=&#34;https://mi-prometheus.readthedocs.io/en/develop/mip_primer/1_mip_explained.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can read more about MI-Prometheus &lt;a href=&#34;https://mi-prometheus.readthedocs.io/en/develop/mip_primer/1_mip_explained.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

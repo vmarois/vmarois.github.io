@@ -48,5 +48,21 @@
       <description></description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am currently a Software Engineer at Bloomberg in London.&lt;/p&gt;
+
+&lt;p&gt;Previously, I was part of the first class of AI Residents at IBM, advised by &lt;a href=&#34;https://researcher.watson.ibm.com/researcher/view.php?person=us-tklinger&#34; target=&#34;_blank&#34;&gt;Tim Klinger&lt;/a&gt; and &lt;a href=&#34;https://researcher.watson.ibm.com/researcher/view.php?person=us-mcam&#34; target=&#34;_blank&#34;&gt;Murray Campbell&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I graduated from &lt;a href=&#34;https://www.gatech.edu&#34; target=&#34;_blank&#34;&gt;Georgia Tech&lt;/a&gt; and &lt;a href=&#34;https://www.insa-lyon.fr/en/&#34; target=&#34;_blank&#34;&gt;INSA Lyon&lt;/a&gt; with a dual degree in Machine Learning and Computer Engineering.&lt;/p&gt;
+
+&lt;p&gt;I had the opportunity to work with industry-facing and research teams through several internships. I am very interested in translating new research ideas into user-friendly features and products. I enjoy working at the intersection of AI Research and Software Engineering, as I believe both domains benefit from one another.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
