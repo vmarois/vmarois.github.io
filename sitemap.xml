@@ -4,7 +4,29 @@
   
   <url>
     <loc>/authors/admin/</loc>
-    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/crucibles/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -20,12 +42,6 @@
   
   <url>
     <loc>/authors/alex-sandy-pentland/</loc>
-    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2020-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -73,12 +89,6 @@
   
   <url>
     <loc>/authors/tim-klinger/</loc>
-    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
